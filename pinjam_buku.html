@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil dan Peminjaman Buku</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="profile.jpg" alt="Foto Anda">
+            <h2>Nama: Daffa Tri Jayawinata </h2>
+            <h3>NIM: 6701223041</h3>
+            <h3>Kelas: 46-04</h3>
+        </div>
+        <div class="form">
+            <input type="text" id="jumlah" placeholder="Jumlah Buku">
+            <select id="pilihan">
+            <option value="sherlock">Sherlock holmes</option>
+            <option value="lupin">Lupin</option>
+            <option value="aladin">Aladin</option>
+        </select>
+            <button onclick="cekPeminjaman()">Pinjam Buku</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

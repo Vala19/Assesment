@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile {
+    text-align: center;
+    margin-right: 50px;
+}
+
+.profile img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.form {
+    text-align: center;
+}
